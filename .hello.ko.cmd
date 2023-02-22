@@ -1,1 +1,0 @@
-cmd_/root/develop/kernel/hello-1/hello.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /root/develop/kernel/hello-1/hello.ko /root/develop/kernel/hello-1/hello.o /root/develop/kernel/hello-1/hello.mod.o;  true
