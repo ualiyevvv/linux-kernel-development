@@ -3,10 +3,11 @@
 ## Requirements 
 Linux kernel version 5.14
 
-## Usage
-- cd to ```~/develop/kernel``` <br>
+## Installation
 - clone the repo <br>
 - run ```make``` <br>
+
+## Load and unload the module
 - run ```sudo insmod hello.ko``` for enable kernel module and check system logs ```dmesg``` u see 'Hello world' <br>
 - run ```sudo rmmod hello``` for disable kernel module and check system logs ```dmesg``` u see 'Goodbye world' <br>
 
