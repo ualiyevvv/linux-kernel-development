@@ -1,7 +1,7 @@
 # Simple hello-goodbye linux kernel module 
 
 ## Requirements 
-Linux kernel version 5.14
+Linux kernel version 5.^
 
 ## Installation
 - clone the repo <br>
